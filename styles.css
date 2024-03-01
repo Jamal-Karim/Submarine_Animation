@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+.animation{
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.submarine{
+    height: 200px;
+    width: 175px;
+}
